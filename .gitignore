@@ -10,16 +10,15 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
-
-# Examples of Holoplay be ignored
-[Aa]ssetes/Holoplay/Examples/
-[Aa]ssetes/Basic Example.unity
-[Aa]ssets/*.meta
-
-*.meta
-
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
+
+[Aa]ssets/Holoplay/Examples/
+[Aa]ssets/Holoplay/*.meta
+[Aa]ssets/Holoplay/Basic Example.unity
+[Aa]ssets/StreamingAssets/*.meta
+[Aa]ssets/StreamingAssets/**/*.meta
+[Aa]ssets/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
