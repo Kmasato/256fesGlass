@@ -10,6 +10,14 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+
+# Examples of Holoplay be ignored
+[Aa]ssetes/Holoplay/Examples/
+[Aa]ssetes/Basic Example.unity
+[Aa]ssets/*.meta
+
+*.meta
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
